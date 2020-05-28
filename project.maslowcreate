@@ -8,6 +8,58 @@
     "topLevel": true,
     "allAtoms": [
         {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.08125915080527087,
+            "y": 0.4444444444444444,
+            "uniqueID": 807310,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10.5
+                }
+            ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.2137628111273792,
+            "y": 0.3984674329501916,
+            "uniqueID": 231821,
+            "ioValues": [
+                {
+                    "name": "height",
+                    "ioValue": 3.3
+                }
+            ]
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.07613469985358712,
+            "y": 0.7509578544061302,
+            "uniqueID": 241898,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 6
+                }
+            ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.2027818448023426,
+            "y": 0.7892720306513409,
+            "uniqueID": 792586,
+            "ioValues": [
+                {
+                    "name": "height",
+                    "ioValue": -25
+                }
+            ]
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9853587115666179,
@@ -15,6 +67,23 @@
             "ioValues": []
         }
     ],
-    "allConnectors": [],
-    "fileTypeVersion": 1
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 807310,
+            "ap2ID": 231821
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 241898,
+            "ap2ID": 792586
+        }
+    ],
+    "fileTypeVersion": 1,
+    "filetypeVersion": 1,
+    "circleSegmentSize": 2
 }
