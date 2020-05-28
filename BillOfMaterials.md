@@ -2,6 +2,7 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Total: |0|$0.00| |
+|M6x25 Bolt|1|$0.33|https://www.mcmaster.com/92095A242|
+|Total: |1|$0.33| |
 
- 3xCOG MSRP: $0.00
+ 3xCOG MSRP: $0.98

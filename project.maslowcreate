@@ -34,6 +34,36 @@
             ]
         },
         {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.4377745241581259,
+            "y": 0.43295019157088127,
+            "uniqueID": 801410,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.2247437774524158,
+            "y": 0.6973180076628352,
+            "uniqueID": 792586,
+            "ioValues": [
+                {
+                    "name": "height",
+                    "ioValue": -25
+                }
+            ]
+        },
+        {
             "atomType": "Circle",
             "name": "Circle",
             "x": 0.07613469985358712,
@@ -47,23 +77,34 @@
             ]
         },
         {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.2027818448023426,
-            "y": 0.7892720306513409,
-            "uniqueID": 792586,
-            "ioValues": [
-                {
-                    "name": "height",
-                    "ioValue": -25
-                }
-            ]
+            "atomType": "Color",
+            "name": "Color",
+            "x": 0.5812591508052709,
+            "y": 0.5172413793103449,
+            "uniqueID": 678893,
+            "ioValues": [],
+            "selectedColorIndex": "11"
+        },
+        {
+            "atomType": "Add BOM Tag",
+            "name": "Add BOM Tag",
+            "x": 0.733528550512445,
+            "y": 0.4597701149425288,
+            "uniqueID": 705419,
+            "ioValues": [],
+            "BOMitem": {
+                "BOMitemName": "M6x25 Bolt",
+                "numberNeeded": 1,
+                "costUSD": 0.3272,
+                "source": "https://www.mcmaster.com/92095A242",
+                "totalNeeded": 1
+            }
         },
         {
             "atomType": "Output",
             "name": "Output",
-            "x": 0.9853587115666179,
-            "y": 0.5,
+            "x": 0.9831625183016106,
+            "y": 0.5402298850574713,
             "ioValues": []
         }
     ],
@@ -77,10 +118,44 @@
         },
         {
             "ap1Name": "geometry",
+            "ap2Name": "3D shape 2",
+            "ap2Primary": false,
+            "ap1ID": 231821,
+            "ap2ID": 801410
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 801410,
+            "ap2ID": 678893
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 792586,
+            "ap2ID": 801410
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 241898,
             "ap2ID": 792586
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 678893,
+            "ap2ID": 705419
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 705419
         }
     ],
     "fileTypeVersion": 1,
